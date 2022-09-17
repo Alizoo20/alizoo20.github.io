@@ -1,5 +1,11 @@
-h1{
-    color:red;
-    font-size:30px;
-    
+header{
+    text-align: center;
+    background-color:red;
+    font-size:20px;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    font-size:15pt;
 }
