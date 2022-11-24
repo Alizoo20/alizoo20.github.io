@@ -1,0 +1,24 @@
+LAB 1: HỢP NGỮ CĂN BẢN
+I. Lý thuyết
+1) Tính địa chỉ vật lý tương ứng với địa chi logic 0A25h:CD09h
+=>0A25h*10h+CD09h=1 6F59
+2)Với địa chỉ vật lý 4A37Bh,hãy tính:
+a) Địa chỉ ô tương ứng với đoạn 40FFh
+ địa chỉ/sm*10=410h
+b) Địa chỉ đoạn tương ứng với ô 123Bh
+ sm=(địa chỉ+off)/10=4B5B
+3) Giả sứ các byte ở địa chỉ từ 0 đến 4 có nội dung là ABCDEF0123.Hãy cho biết trị của từ (2byte)ơ địa chỉ 2.
+ 2 byte ở địa chỉ 2 là EF
+
+4) Giả sử chuỗi “12A45” được lưu trong bộ nhớ từ địa chỉ 0 đến 4.Hãy cho biết nội dung của vùng nhớ từ địa chi 0 đến 4 dạng thập lục phân.
+Dạng thập lục phân là :3132413435
+5) Giả sử A được lưu tại địa chỉ ô 0000h.Hãy cho biết C lưu tại địa chi nào với khai báo sau:
+A 	DB	7
+B	DW	1ABCh
+C	DB	‘HAO’
+A = 0001h
+B= 0002h
+C=0003h
+
+6) Viết nhóm lệnh tương đươn với lệnh gán B=B-A-1, trong đó A,B là vùng nhớ kiểu từ (word).
+7) Viết nhóm lệnh tương đương với lệnh gán C=2*B-3*A, trong đó A,B,C là vùng nhớ kiểu từ (word).
